@@ -33,6 +33,8 @@ manifest:
       url-base: https://github.com/ThrowTheSwitch
     - name: armmbed
       url-base: https://github.com/ARMmbed
+    - name: mike-scott
+      url-base: https://github.com/mike-scott
 
   # The list of external projects for the nRF Connect SDK.
   #
@@ -40,7 +42,8 @@ manifest:
     - name: fw-nrfconnect-zephyr
       path: zephyr
       west-commands: scripts/west-commands.yml
-      revision: pull/179/head
+      revision: nrf-20190722-fio
+      remote: mike-scott
     - name: nffs
       revision: bc62a2fa9d98ddb5d633c932ea199bc68e10f194
       path: modules/fs/nffs
