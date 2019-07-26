@@ -37,12 +37,12 @@ nrf_gnss_data_frame_t last_fix;
 
 void bsd_recoverable_error_handler(uint32_t error)
 {
-	printf("Err: %lu\n", error);
+	printf("Err: %u\n", error);
 }
 
 void bsd_irrecoverable_error_handler(uint32_t error)
 {
-	printf("Irrecoverable: %lu\n", error);
+	printf("Irrecoverable: %u\n", error);
 }
 
 static int enable_gps(void)
